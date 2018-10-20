@@ -1,0 +1,6 @@
+<a href="create" class = "addNote">New Note</a>
+<section  class = "wraper">
+	<div class = "notes" ng-repeat="i in model" id = {{i._id}} ng-class= "i.textStyle" ng-click = "lineThrough(i._id)">
+	  	{{i.node }}
+	  </div>
+</section>
